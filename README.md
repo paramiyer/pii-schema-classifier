@@ -66,7 +66,6 @@ dama_categories:
   - internal
   - public
   - general
-  - unknown
 # Add or adjust categories as needed
 ```
 
@@ -87,7 +86,7 @@ poetry run python bin/run_schema_classification.py
 ```
 or, after install with pip:
 ```bash
-python -m pii_meta.bin.run_schema_classification
+python -m pii-schema-classifier.bin.run_schema_classification
 ```
 
 ### 4. **Check Output**
@@ -155,7 +154,7 @@ See `LICENSE` file for details.
 ## Authors
 
 - Param Iyer  
-  <your.email@example.com>
+  <paramiyer@gmail.com>
 
 ---
 
