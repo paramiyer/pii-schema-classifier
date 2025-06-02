@@ -1,5 +1,5 @@
 
-# pii-meta
+# pii-schema-classifier
 
 A robust Python package for **automated data classification of database columns** according to DAMA International data classification standards (e.g., `pii`, `confidential`, `general`, etc.) using a large language model (LLM, e.g., GPT-4).
 This tool supports **schema-wide analysis** for any SQLAlchemy-compatible database, with flexible configuration and YAML-driven workflows.
@@ -31,20 +31,20 @@ This tool supports **schema-wide analysis** for any SQLAlchemy-compatible databa
 
 **Option 1: Install from PyPI**
 ```bash
-pip install pii-meta
+pip install pii-schema-classifier
 ```
 
 **Option 2: Local development with Poetry**
 ```bash
-git clone https://github.com/yourusername/pii-meta.git
-cd pii-meta
+git clone https://github.com/yourusername/pii-schema-classifier.git
+cd pii-schema-classifier
 poetry install
 ```
 
 **Option 3: Build and install locally**
 ```bash
 poetry build
-pip install dist/pii_meta-0.1.0-py3-none-any.whl
+pip install dist/pii-schema-classifier-0.1.0-py3-none-any.whl
 ```
 
 ---
