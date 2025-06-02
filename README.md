@@ -25,29 +25,6 @@ This tool supports **schema-wide analysis** for any SQLAlchemy-compatible databa
 - **Modular Codebase:**  
   Well-organized, with extensible submodules for future features.
 
----
-
-## Installation
-
-**Option 1: Install from PyPI**
-```bash
-pip install pii-schema-classifier
-```
-
-**Option 2: Local development with Poetry**
-```bash
-git clone https://github.com/yourusername/pii-schema-classifier.git
-cd pii-schema-classifier
-poetry install
-```
-
-**Option 3: Build and install locally**
-```bash
-poetry build
-pip install dist/pii-schema-classifier-0.1.0-py3-none-any.whl
-```
-
----
 
 ## Usage
 
@@ -58,6 +35,9 @@ Edit `config/user_config.yaml`:
 ```yaml
 db_uri: "postgresql://username:password@localhost:5432/yourdb"
 schema: "public"
+output_filename': 'output/full_schema_classification.csv',
+dotenv_path: '.env',
+openai_model: 'gpt-3.5-turbo',
 output_filename: "output/classification_report.csv"
 dama_categories:
   - pii
