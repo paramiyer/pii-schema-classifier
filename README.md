@@ -28,6 +28,8 @@ This tool supports **schema-wide analysis** for any SQLAlchemy-compatible databa
 
 ## Usage
 
+###0. Requires Python >=3.10,<3.12. Also, install requirements.txt
+
 ### 1. **Prepare your configuration**
 
 Edit `config/user_config.yaml`:
